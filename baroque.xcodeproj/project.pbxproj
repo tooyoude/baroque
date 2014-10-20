@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A87E1FE19F56E21000A5C15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A87E1FD19F56E21000A5C15 /* main.m */; };
+		2A87E20119F56E21000A5C15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A87E20019F56E21000A5C15 /* AppDelegate.m */; };
+		2A87E20419F56E21000A5C15 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A87E20319F56E21000A5C15 /* MasterViewController.m */; };
+		2A87E20719F56E21000A5C15 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A87E20619F56E21000A5C15 /* DetailViewController.m */; };
+		2A87E20A19F56E21000A5C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A87E20819F56E21000A5C15 /* Main.storyboard */; };
+		2A87E20C19F56E21000A5C15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A87E20B19F56E21000A5C15 /* Images.xcassets */; };
+		2A87E20F19F56E21000A5C15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A87E20D19F56E21000A5C15 /* LaunchScreen.xib */; };
+		2A87E21B19F56E21000A5C15 /* baroqueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A87E21A19F56E21000A5C15 /* baroqueTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A87E21519F56E21000A5C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A87E1F019F56E21000A5C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A87E1F719F56E21000A5C15;
+			remoteInfo = baroque;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A87E1F819F56E21000A5C15 /* baroque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baroque.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A87E1FC19F56E21000A5C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A87E1FD19F56E21000A5C15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A87E1FF19F56E21000A5C15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A87E20019F56E21000A5C15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A87E20219F56E21000A5C15 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2A87E20319F56E21000A5C15 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2A87E20519F56E21000A5C15 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2A87E20619F56E21000A5C15 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2A87E20919F56E21000A5C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A87E20B19F56E21000A5C15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A87E20E19F56E21000A5C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2A87E21419F56E21000A5C15 /* baroqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baroqueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A87E21919F56E21000A5C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A87E21A19F56E21000A5C15 /* baroqueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baroqueTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A87E1F519F56E21000A5C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A87E21119F56E21000A5C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A87E1EF19F56E21000A5C15 = {
+			isa = PBXGroup;
+			children = (
+				2A87E1FA19F56E21000A5C15 /* baroque */,
+				2A87E21719F56E21000A5C15 /* baroqueTests */,
+				2A87E1F919F56E21000A5C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A87E1F919F56E21000A5C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A87E1F819F56E21000A5C15 /* baroque.app */,
+				2A87E21419F56E21000A5C15 /* baroqueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A87E1FA19F56E21000A5C15 /* baroque */ = {
+			isa = PBXGroup;
+			children = (
+				2A87E1FF19F56E21000A5C15 /* AppDelegate.h */,
+				2A87E20019F56E21000A5C15 /* AppDelegate.m */,
+				2A87E20219F56E21000A5C15 /* MasterViewController.h */,
+				2A87E20319F56E21000A5C15 /* MasterViewController.m */,
+				2A87E20519F56E21000A5C15 /* DetailViewController.h */,
+				2A87E20619F56E21000A5C15 /* DetailViewController.m */,
+				2A87E20819F56E21000A5C15 /* Main.storyboard */,
+				2A87E20B19F56E21000A5C15 /* Images.xcassets */,
+				2A87E20D19F56E21000A5C15 /* LaunchScreen.xib */,
+				2A87E1FB19F56E21000A5C15 /* Supporting Files */,
+			);
+			path = baroque;
+			sourceTree = "<group>";
+		};
+		2A87E1FB19F56E21000A5C15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A87E1FC19F56E21000A5C15 /* Info.plist */,
+				2A87E1FD19F56E21000A5C15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A87E21719F56E21000A5C15 /* baroqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A87E21A19F56E21000A5C15 /* baroqueTests.m */,
+				2A87E21819F56E21000A5C15 /* Supporting Files */,
+			);
+			path = baroqueTests;
+			sourceTree = "<group>";
+		};
+		2A87E21819F56E21000A5C15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A87E21919F56E21000A5C15 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A87E1F719F56E21000A5C15 /* baroque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A87E21E19F56E21000A5C15 /* Build configuration list for PBXNativeTarget "baroque" */;
+			buildPhases = (
+				2A87E1F419F56E21000A5C15 /* Sources */,
+				2A87E1F519F56E21000A5C15 /* Frameworks */,
+				2A87E1F619F56E21000A5C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baroque;
+			productName = baroque;
+			productReference = 2A87E1F819F56E21000A5C15 /* baroque.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A87E21319F56E21000A5C15 /* baroqueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A87E22119F56E21000A5C15 /* Build configuration list for PBXNativeTarget "baroqueTests" */;
+			buildPhases = (
+				2A87E21019F56E21000A5C15 /* Sources */,
+				2A87E21119F56E21000A5C15 /* Frameworks */,
+				2A87E21219F56E21000A5C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A87E21619F56E21000A5C15 /* PBXTargetDependency */,
+			);
+			name = baroqueTests;
+			productName = baroqueTests;
+			productReference = 2A87E21419F56E21000A5C15 /* baroqueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A87E1F019F56E21000A5C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yu Yan";
+				TargetAttributes = {
+					2A87E1F719F56E21000A5C15 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2A87E21319F56E21000A5C15 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2A87E1F719F56E21000A5C15;
+					};
+				};
+			};
+			buildConfigurationList = 2A87E1F319F56E21000A5C15 /* Build configuration list for PBXProject "baroque" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A87E1EF19F56E21000A5C15;
+			productRefGroup = 2A87E1F919F56E21000A5C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A87E1F719F56E21000A5C15 /* baroque */,
+				2A87E21319F56E21000A5C15 /* baroqueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A87E1F619F56E21000A5C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A87E20A19F56E21000A5C15 /* Main.storyboard in Resources */,
+				2A87E20F19F56E21000A5C15 /* LaunchScreen.xib in Resources */,
+				2A87E20C19F56E21000A5C15 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A87E21219F56E21000A5C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A87E1F419F56E21000A5C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A87E20119F56E21000A5C15 /* AppDelegate.m in Sources */,
+				2A87E20419F56E21000A5C15 /* MasterViewController.m in Sources */,
+				2A87E1FE19F56E21000A5C15 /* main.m in Sources */,
+				2A87E20719F56E21000A5C15 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A87E21019F56E21000A5C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A87E21B19F56E21000A5C15 /* baroqueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A87E21619F56E21000A5C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A87E1F719F56E21000A5C15 /* baroque */;
+			targetProxy = 2A87E21519F56E21000A5C15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A87E20819F56E21000A5C15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A87E20919F56E21000A5C15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A87E20D19F56E21000A5C15 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A87E20E19F56E21000A5C15 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A87E21C19F56E21000A5C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A87E21D19F56E21000A5C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A87E21F19F56E21000A5C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = baroque/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A87E22019F56E21000A5C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = baroque/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A87E22219F56E21000A5C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = baroqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baroque.app/baroque";
+			};
+			name = Debug;
+		};
+		2A87E22319F56E21000A5C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = baroqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baroque.app/baroque";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A87E1F319F56E21000A5C15 /* Build configuration list for PBXProject "baroque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A87E21C19F56E21000A5C15 /* Debug */,
+				2A87E21D19F56E21000A5C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A87E21E19F56E21000A5C15 /* Build configuration list for PBXNativeTarget "baroque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A87E21F19F56E21000A5C15 /* Debug */,
+				2A87E22019F56E21000A5C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A87E22119F56E21000A5C15 /* Build configuration list for PBXNativeTarget "baroqueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A87E22219F56E21000A5C15 /* Debug */,
+				2A87E22319F56E21000A5C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A87E1F019F56E21000A5C15 /* Project object */;
+}
